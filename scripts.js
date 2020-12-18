@@ -2,7 +2,7 @@ function switchColor() {
     var body = document.body;
     var bodyText = [];
     bodyText = document.getElementsByClassName("change-color");
-    // var bodyText = document.
+
     console.log(bodyText);
 
     Array.from(bodyText).forEach(function (element) {
