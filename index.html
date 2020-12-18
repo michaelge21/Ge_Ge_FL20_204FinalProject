@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>GIF Searcher</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+
+
+<body id="body">
+    <div class="header" id="header">
+        <a href="#default" class="logo">GeSquared GIF Searcher</a>
+
+        <div class="header-right">
+            <a class="active" id="button1" href="#null" onclick="switchColor();return false">Click me to switch color schemes!</a>
+            <!-- <input type="button" id="button1" class="active button" value="Click me to switch color schemes."/> -->
+        </div>
+        <form class="form">
+            <label class="form-label" for="searchbar">Search here!</label>
+            <input class="searchbar" id="searchbar" type="searchbar"/>
+            <button id="searchbar-button">Enter the world of GIFS!</button>
+        </form>
+      </div>
+      
+      <div class="container-fluid" id="container-fluid">
+
+        <div class="row1" id="row1">
+            <!-- BLANK SPACE START -->
+            <div class="col-md-2 filler">
+                <h1 class=change-color>blank</h1>
+            </div>
+            <!-- BLANK SPACE END -->
+
+            <div class="col-md-8 load-gifs-row1">
+                <h1 class=change-color>gif here</h1>
+            </div>
+
+            <div class="col-md-2 filler">
+                <h1 class=change-color>Blank</h1>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
