@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
         <link rel="stylesheet" href="stylesheet.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <script src="scripts.js"></script>
     </head>
 
 
@@ -20,7 +21,7 @@
         <!-- SEARCH BAR HERE -->
         <form class="form">
             <label class="form-label" for="searchbar">Search here!</label>
-            <input class="searchbar" id="searchbar" type="searchbar"/>
+            <input class="searchbar" id="searchbar" type="search"/>
             <button id="searchbar-button">Enter the world of GIFS!</button>
         </form>
         <!-- SEARCH BAR END -->
@@ -28,7 +29,7 @@
       
       <div class="container-fluid" id="container-fluid">
 
-<!-- ROW ONE START -->
+        <!-- ROW ONE START -->
         <div class="row1" id="row1">
             <!-- BLANK SPACE START -->
             <div class="col-md-2 filler">
@@ -37,7 +38,7 @@
             <!-- BLANK SPACE END -->
 
             <!-- PLACE GIFS HERE -->
-            <div class="col-md-8 load-gifs-row1">
+            <div class="col-md-8 load-gifs-row1" id="gifs">
                 <h1 class=change-color>gif here</h1>
             </div>
             <!-- PLACE GIFS HERE -->
@@ -48,13 +49,21 @@
             </div>
             <!-- BLANK SPACE START -->
         </div>
-<!-- ROW ONE END -->
+        <!-- ROW ONE END -->
 
 
     </div>
 
+    <div>
+        <a class="active hidden" id="moreGifs" href="#null">More GIFs!</a>
+    </div>
 
-    <script src="scripts.js"></script>
+    <img
+        src="Poweredby_100px-White_VertText.png"
+        alt="logo-white"
+        id="logowhite"
+    >
+    
 </body>
 
 </html>

@@ -79,3 +79,16 @@ body {
     float: none;
   }
 }
+
+.hidden {
+  display: none;
+}
+
+.expanded {
+  position: absolute;
+  width: 90%;
+  height: auto;
+  top: 100px;
+  left: 50px;
+  z-index: 1;
+}
