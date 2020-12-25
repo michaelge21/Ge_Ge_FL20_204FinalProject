@@ -150,6 +150,6 @@ function switchColor() {
 
 
 function toHomePage() {
-    window.location = '/';   
+    window.location = '/Ge_Ge_FL20_204FinalProject/';   
 }
 
