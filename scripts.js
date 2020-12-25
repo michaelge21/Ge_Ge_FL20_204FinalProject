@@ -117,12 +117,7 @@ window.onload = function() {
         gifs.appendChild(expandGif); 
     }
 
-    // // HERE
-    // let adArray = [];
-    // adArray = document.getElementsByTagName("img");
 
-    // console.log(adArray);
-    // //  HERE
 }
 
 function switchColor() {
@@ -135,7 +130,7 @@ function switchColor() {
         element.classList.toggle("light-mode-text");
     })
 
-    // color switch for gif start
+    // color switch for gifs start
     let gifArray = [];
     gifArray = document.getElementsByClassName("allgifs");
 
@@ -154,5 +149,24 @@ function switchColor() {
 }
 
 
+// function toHomePage() {
+//     const APIKEY = "np5jLkSLwCqMfucJ8SxhABzsBjRvr8qP";
 
+//     let expandedGifs;
+
+//     var trendingUrl = `https://api.giphy.com/v1/gifs/trending?api_key=${APIKEY}&limit=20`;
+//     console.log(trendingUrl);
+//     fetch (trendingUrl)
+//         .then(response => response.json())
+//         .then(content => {
+//             console.log(content.data);
+//                 console.log("META", content.meta);
+//             for (i = 0; i < content.data.length; i++ ) {
+//                 displayGifs(content.data[i].images.fixed_width.url, content.data[i].id);
+//             }
+//         })
+//     .catch(err => {
+//         console.log("ERROR");
+//     });
+// }
 
