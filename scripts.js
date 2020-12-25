@@ -49,6 +49,7 @@ window.onload = function() {
         var newGif = document.createElement("img");
         newGif.setAttribute("src", url);
         newGif.setAttribute("alt", id);
+        newGif.setAttribute("class", "allgifs");
         newGif.addEventListener("click", () => {
             getGIFById(id);
         })
@@ -123,16 +124,29 @@ function switchColor() {
     var bodyText = [];
     bodyText = document.getElementsByClassName("change-color");
 
-    console.log(bodyText);
 
     Array.from(bodyText).forEach(function (element) {
         element.classList.toggle("light-mode-text");
     })
 
+    // color switch for gif start
+    let gifArray = [];
+    gifArray = document.getElementsByClassName("allgifs");
+
+    console.log(gifArray);
+
+    Array.from(gifArray).forEach(function (element) {
+        element.classList.toggle("allgifs-light");
+    })
+    //  gif switch end
+
     var header = document.getElementById("header");
     header.classList.toggle("light-mode-header");
 
     body.classList.toggle("light-mode");
+
+
+
 }
 
 
