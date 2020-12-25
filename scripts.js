@@ -117,6 +117,12 @@ window.onload = function() {
         gifs.appendChild(expandGif); 
     }
 
+    // // HERE
+    // let adArray = [];
+    // adArray = document.getElementsByTagName("img");
+
+    // console.log(adArray);
+    // //  HERE
 }
 
 function switchColor() {
@@ -145,8 +151,8 @@ function switchColor() {
 
     body.classList.toggle("light-mode");
 
-
-
 }
+
+
 
 
